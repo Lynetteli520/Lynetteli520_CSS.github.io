@@ -13,9 +13,8 @@ figure figcaption{
     .container{
         display: grid;
         grid-auto-columns: 1fr;
+        width: min(375px, 70%);
         margin: auto;
-        width: 70%;
-        max-width: 375px;
         grid-template-rows: minmax(fit-content(100%),375px);
     }
 
